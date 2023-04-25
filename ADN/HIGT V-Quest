@@ -14,3 +14,29 @@ Pour plus d'informations, voir « Recherche d'insertions et de suppressions ».
 (ou de l'acide aminé) 
 * IMGT/HighV-QUEST ne fonctionne pas, ou donnera des résultats aberrants, pour des séquences partielles trop courtes, des séquences contenant un groupe
 de V-GENE, ou des séquences avec des 5'UTR ou 3'UTR trop longs.
+
+
+resultat sous forme de tableau:
+* La fonctionnalité de la séquence, évaluée par IMGT/V-QUEST,
+* Les noms du V-GENE et de l'allèle et du J-GENE et de l'allèle sont indiqués avec leur score d'alignement et le pourcentage d'identité. 
+* Le nom du D-GENE et de l'allèle et le cadre de lecture D-REGION sont fournis selon les résultats de l'IMGT/JunctionAnalysis.
+
+* Les longueurs du FR-IMGT : [FR1-IMGT.FR2-IMGT.FR3-IMGT.FR4-IMGT], Les longueurs du CDR-IMGT : [CDR1-IMGT.CDR2-IMGT.CDR3-IMGT], et la traduction des acides aminés de la JUNCTION.
+
+* La longueur en nucléotides de la JUNCTION et son déchiffrement fourni par IMGT/JunctionAnalysis. 
+
+autre resultat possible: 
+Alignement pour l'identification des V-GENE et des allèles
+Alignement pour l'identification des D-GENE et des allèles
+Alignement pour l'identification des allèles J-GENE et
+Résultats de l'IMGT/JunctionAnalysis
+Séquence de la jONCTION ('nt' et 'AA')
+Alignement V-REGION
+Traduction de la V-REGION
+Affichage des protéines V-REGION
+Mutation V-REGION et tableau de changement AA
+Statistiques sur la mutation V-REGION et le changement AA
+Points chauds de la mutation V-REGION
+Séquences de V-, V-J- ou V-D-J- REGION ("nt" et "AA") avec des lacunes dans FASTA.
+Annotations par IMGT/Automat
+IMGT Collier de Perles
