@@ -1,4 +1,5 @@
 Imput: FASTA ou FASTQ au format txt 
+output: le dossier principal avec 11 (ou 12, si scFv a été sélectionné) fichiers CSV et le dossier de fichiers individuels
 
 analyser des milliers de séquences de nucléotidiques réarrangées d'immunoglobulines (IG) et de récepteurs de lymphocytes T (TR) 
 (jusqu'à 1000000 séquences) par série.
@@ -20,7 +21,7 @@ de V-GENE, ou des séquences avec des 5'UTR ou 3'UTR trop longs.
 
 resultat sous forme de tableau:
 * La fonctionnalité de la séquence, évaluée par IMGT/V-QUEST,
-* Les noms du V-GENE et de l'allèle et du J-GENE et de l'allèle sont indiqués avec leur score d'alignement et le pourcentage d'identité. 
+* Les noms du V-GENE et de l'allèle et du J-GENE et de l'allèle sont indiqués avec leur score d'alignement et le pourcentage d'identité.
 * Le nom du D-GENE et de l'allèle et le cadre de lecture D-REGION sont fournis selon les résultats de l'IMGT/JunctionAnalysis.
 
 * Les longueurs du FR-IMGT : [FR1-IMGT.FR2-IMGT.FR3-IMGT.FR4-IMGT], Les longueurs du CDR-IMGT : [CDR1-IMGT.CDR2-IMGT.CDR3-IMGT], et la traduction des acides aminés de la JUNCTION.
