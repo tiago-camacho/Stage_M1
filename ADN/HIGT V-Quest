@@ -1,3 +1,5 @@
+Imput: FASTA ou FASTQ au format txt 
+
 analyser des milliers de séquences de nucléotidiques réarrangées d'immunoglobulines (IG) et de récepteurs de lymphocytes T (TR) 
 (jusqu'à 1000000 séquences) par série.
 
