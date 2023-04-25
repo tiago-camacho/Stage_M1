@@ -1,1 +1,16 @@
+analyser des milliers de séquences de nucléotidiques réarrangées d'immunoglobulines (IG) et de récepteurs de lymphocytes T (TR) 
+(jusqu'à 1000000 séquences) par série.
 
+Tous les utilisateurs d'IMGT/HighV-QUEST doivent être enregistrés afin de pouvoir utiliser cette plate-forme
+
+IMGT/HighV-QUEST fonctionne avec les séquences V-J et V-D-J réarrangées et la lignée germinale V-GENE, mais ne fonctionne pas avec 
+la lignée germinale D-GENE ou J-GÊNE
+
+* IMGT/HighV-QUEST peut analyser des séquences avec des insertions ou des suppressions d'ADN (qui ne respectent pas la numérotation unique IMGT). 
+Pour plus d'informations, voir « Recherche d'insertions et de suppressions ».
+* IMGT/HighV-QUEST peut analyser des séquences contenant deux domaines V (comme scFv) si l'option « Analyse de la variable de fragment 
+à chaîne unique (scFv) » est sélectionnée dans les fonctionnalités avancées de la page de recherche IMGT/HighV-QUEST.
+* IMGT/HighV-QUEST ne fonctionne pas avec les pseudogènes hors cadre car ils ne peuvent pas être numérotés selon la numérotation unique IMGT du codon
+(ou de l'acide aminé) 
+* IMGT/HighV-QUEST ne fonctionne pas, ou donnera des résultats aberrants, pour des séquences partielles trop courtes, des séquences contenant un groupe
+de V-GENE, ou des séquences avec des 5'UTR ou 3'UTR trop longs.
