@@ -1,1 +1,28 @@
+cell ranger 
+5 pipeline d’analyse 
 
+	-alignement de séquence
+	-génération de matrice de code barres
+	-
+Gestion flux de travail 
+choix de la pipeline 
+	->outil informatique 
+	->fichier entrée FASTQ
+		-> si pas le cas alors tranformé bcl22fastq ou CELLRANGER MKFASTQ
+	->bibilothéque cela déterminer le pipeline 
+	->analyse secondaire
+
+
+
+Si on a des brut ou FASTA ou FASTQ
+
+
+Si vous commencez avec des fichiers d'appel de base brut (BCL),
+ le flux de travail Cell Ranger commence par le démultiplexage des fichiers BCL
+ pour chaque répertoire de cellules de flux. 10x Genomics recommande d'utiliser
+ cellranger mkfastq comme décrit dans Générer des FASTQ. Si vous commencez avec 
+des fichiers FASTQ qui ont déjà été démultiplexés avec bcl2fastq ou bcl-convert 
+directement, ou à partir d'une source publique telle que SRA, vous pouvez sauter
+ cellranger mkfastq et commencer par le nombre de cellranger. Veuillez consulter
+ les pages Specifying Input FASTQ (count, multi) pour des directives spécifiques
+ sur les arguments à utiliser pour votre scénario.
