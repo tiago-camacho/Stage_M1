@@ -1,1 +1,25 @@
+TraceR
+Input                 output
+Fastq ou Fastq.gz      Txt (princialement)
 
+2 étape 
+Assemblage 
+Résumer
+
+
+étape 
+verification des données
+
+controle qualité (outil extérieur) 
+
+"gestion informatique" (instalation mémoire et tout) 
+
+condition read qui couvret les extériemité 
+trans ARNm du type SMART-Seq
+
+PRofondeur minimal 50 optimal 250 000 - 500 000
+
+démultiplxsion des donnnées 
+
+
+Suppression des dubler et multiplexer car analyse de deonne d'une seule cellule. 
