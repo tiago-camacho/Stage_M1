@@ -2,7 +2,7 @@
 -*- coding: utf-8 -*-
 
 # Code pour poser les questions à l'utilisateur
-
+# chaque reponse possible devera etre mise dans le readme
 # Espèce
 espece = input("Quelle est l'espèce que vous souhaitez analyser ? ")
 
